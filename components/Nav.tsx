@@ -26,6 +26,7 @@ export default function Nav({ email }: { email?: string | null }){
   return (
     <div className="nav">
       <Link href="/">Dashboard</Link>
+      <Link href="/transactions">Transactions</Link>
       <Link href="/inventory">Inventory</Link>
       <Link href="/comparison">Comparison</Link>
       <Link href="/balances">Balances</Link>
